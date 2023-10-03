@@ -1,4 +1,5 @@
 # PYSTACK WEEK 8.0 - Pythonando com Caio Sampaio
+![logo_pythonando](https://github.com/patyfil/vitalab/assets/41968938/1a57c37c-16f5-4cd0-83bb-69369ba0c5e9)
 
 ## Projeto VitaLab
 
