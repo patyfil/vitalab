@@ -3,7 +3,7 @@
 ## Projeto VitaLab
 
 <p align="center">
-    <img src="templates/static/geral/img/preview.png" width= "70%">  
+    <img src="templates/static/geral/img/preview.jpg" width= "70%">  
 </p>
 
 Evento Online e Gratuito da [Pythonando](https://pythonando.com.br/psw/evento/)  
