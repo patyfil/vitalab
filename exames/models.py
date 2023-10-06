@@ -17,6 +17,9 @@ class TiposExames(models.Model):
     def __str__(self):
         return self.nome
 
+    class Meta:
+        verbose_name_plural = 'Tipos exames'
+
 
 class SolicitacaoExame(models.Model):
     choice_status = (
@@ -42,3 +45,6 @@ class PedidosExames(models.Model):
 
     def __str__(self):
         return f'{self.usuario} | {self.data}'
+
+    class Meta:
+        verbose_name_plural = 'Pedidos exames'
