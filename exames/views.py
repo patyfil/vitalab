@@ -41,17 +41,6 @@ def solicitar_exames(request):
         })
 
 
-def badge_template(self):
-    if self.status == 'E':
-        classes_css = 'bg-warning text-dark'
-        texto = "Em análise"
-    elif self.status == 'F':
-        classes_css = 'bg-success'
-        texto = "Finalizado"
-
-    return mark_safe(f"<span class='badge bg-primary {classes_css}'>{texto}</span>")
-
-
 @login_required
 def fechar_pedido(request):
     exames_id = request.POST.getlist('exames')
