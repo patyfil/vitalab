@@ -1,10 +1,11 @@
-from random import choice, shuffle
 import string
+from random import choice, shuffle
+import os
 from django.conf import settings
 from django.template.loader import render_to_string
 from io import BytesIO
 from weasyprint import HTML
-import os
+
 
 def gerar_senha_aleatoria(tamanho):
 
