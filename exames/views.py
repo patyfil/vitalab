@@ -121,7 +121,8 @@ def solicitar_senha_exame(request, exame_id):
         else:
             messages.add_message(request, constants.ERROR, 'Senha inválida')
             return redirect(f'/exames/solicitar_senha_exame/{exame.id}')
-        
+
+
 @login_required
 def gerar_acesso_medico(request):
     if request.method == "GET":

@@ -14,6 +14,11 @@
 
 
     <table style="">
+        <tr>
+            <th>Id</th>
+            <th>Exame</th>
+        </tr>
+
         {% for pedido in pedidos %}
         {% for exame in pedido.exames.all %}
         <tr class="linha-tabela">
