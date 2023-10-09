@@ -23,7 +23,7 @@ def solicitar_exames(request):
         solicitacao_exames = TiposExames.objects.filter(id__in=exames_id)
         # preco_total = solicitacao_exames.aggregate(total=Sum('preco'))['total']
 
-        # TODO: Calcular preço dos exames disponíveis
+        # TODO: Calcular preço dos exames disponíveis [feito]
         # preco_total_disponiveis = 0
         # for exam in tipos_exames:
         #     preco_total_disponiveis += exam.preco
@@ -99,7 +99,7 @@ def gerenciar_exames(request):
 @login_required
 def permitir_abrir_exame(request, exame_id):
     exame = SolicitacaoExame.objects.get(id=exame_id)
-# TODO: validar se o exame é do usuário
+# TODO: validar se o exame é do usuário [feito]
     if not exame.requer_senha:
         # verificar se o pdf existe
         if not exame.resultado:
